@@ -9,7 +9,7 @@ body {
     line-height: 1.5;
 
     --primary-text-color: rgb(255, 255, 255);
-    --secondary-text-color: #5c5c62;
+    --secondary-text-color: #7f7f85;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
@@ -39,6 +39,7 @@ body {
     border: 1px solid #f5f5f5;
     box-shadow: 0 0 7px 7px #b6b4b4;
     max-width: 900px;
+    color: var(--secondary-text-color);
 }
 
 .resume__block {
@@ -87,14 +88,12 @@ hr {
 }
 
 .contact-info__header {
-    color: var(--secondary-text-color);
     margin-bottom: 15px;
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
 }
 
 .contact-info__sub-header {
-    color: var(--secondary-text-color);
     margin-bottom: 30px;
 }
 
@@ -168,18 +167,15 @@ hr {
 }
 
 .intro_text {
-    color: var(--secondary-text-color);
     text-align: justify;
 }
 
 .skills__header {
-    color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
 }
 
 .skills__text {
-    color: var(--secondary-text-color);
     text-align: justify;
 }
 
@@ -190,20 +186,17 @@ hr {
 }
 
 .experiences__header {
-    color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
 }
 
 .experiences__company-header-durability {
-    color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
 .experiences__company-header-name {
-    color: var(--secondary-text-color);
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
@@ -216,20 +209,17 @@ hr {
 }
 
 .experiences__company-project-role {
-    color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
 .experiences__company-project-name {
-    color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 10px;
 }
 
 .experiences__company-project-responsibilities {
-    color: var(--secondary-text-color);
     padding-left: 20px;
 }
 
@@ -242,25 +232,18 @@ hr {
 }
 
 .additional-info__education-header {
-    color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
 }
 
 .additional-info__education-university-durability {
-    color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
 .additional-info__education-university-speciality {
-    color: var(--secondary-text-color);
     text-align: left;
-}
-
-.additional-info__education-university-name {
-    color: var(--secondary-text-color);
 }
 
 .additional-info__languages {
@@ -269,14 +252,9 @@ hr {
 }
 
 .additional-info__languages-header {
-    color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
 }
-
-.additional-info__languages-item {
-    color: var(--secondary-text-color);
-} 
 
 ul li a {
     color: rgb(78, 77, 77);

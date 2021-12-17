@@ -1,6 +1,7 @@
 const CONTAINER = document.querySelector('.resume');
 const LIGHTBTN = document.querySelector('#light');
 const DARKBTN = document.querySelector('#dark');
+const CONTACTLINK = document.querySelectorAll('.contact-info__item');
 
 LIGHTBTN.addEventListener('click', changeMode);
 DARKBTN.addEventListener('click', changeMode);
