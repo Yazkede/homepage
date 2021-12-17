@@ -74,6 +74,20 @@ body {
     text-align: center;
 }
 
+.contact_info_container{
+    margin-bottom: 50px;
+}
+
+
+hr {
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+    color: #FFE4BA;
+    background-color: #FFE4BA;
+    height: 3px; 
+}
+
 .contact-info__header {
     color: var(--primary-text-color);
     margin-bottom: 15px;
@@ -266,3 +280,12 @@ body {
     color: var(--secondary-text-color);
 }
 
+ul li a {
+    color: rgb(78, 77, 77);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(148, 13, 13);
+    font-weight: 600;
+}
