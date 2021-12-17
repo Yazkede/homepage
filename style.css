@@ -7,8 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-
-
+  
     --primary-text-color: rgb(255, 255, 255);
     --secondary-text-color: #7f7f85;
 
@@ -37,6 +36,7 @@ body {
 }
 
 .resume {
+
     margin: 30px auto;
     border: 1px solid #f5f5f5;
     box-shadow: 0 0 7px 7px #b6b4b4;
@@ -47,7 +47,6 @@ body {
 .resume__block {
     border-bottom: 3px solid var(--border-color);
     padding: 20px;
-    
 }
 
 @media screen and (max-width: 576px) {
