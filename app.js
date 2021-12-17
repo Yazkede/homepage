@@ -1,4 +1,4 @@
-const CONTAINER = document.querySelector('.container');
+const CONTAINER = document.querySelector('.resume');
 const LIGHTBTN = document.querySelector('#light');
 const DARKBTN = document.querySelector('#dark');
 
