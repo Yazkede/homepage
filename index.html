@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My resume</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,87 +17,186 @@
         <span><input type="radio" checked name="mode" id="light">light mode</span>
         <span><input type="radio" name="mode" id="dark">dark mode</span>
     </div>
-    <div class="container">
-        <div class="main-content">
-            <div class="about-me">
-                <h1>Александр Рыбин</h1>
-            </div>
-            <div class="intro">
-                <h3>Intro</h3>
-                <ul>
-                    <li>Я живу</li>
-                    <li>Мне нравится жить</li>
-                    <li>Хочу жить лучше, чем сейчас</li>
-                    <li>Жизнь важно прожить так, чтобы было что вспомнить на старости лет</li>
-                </ul>
-            </div>
-            <div class="contacts">
-                <h3>Contacts</h3>
-                <ul>
-                    <li>
-                        <span>г. Харьков</span>
-                    </li>
-                    <li>
-                        <span>Тел: </span>
-                        <a class="link" href="tel:+380983874705">+380983874705</a>
-                    </li>
-                    <li>
-                        <span>Telegram: </span>
-                        <a class="link" href="https://web.telegram.org/k/" target="_blank">https://t.me/Yazkede</a>
-                    </li>
-                    <li>
-                        <span>E-mail: </span>
-                        <a class="link" href="mailto:alex.rybin999@gmail.com">alex.rybin999@gmail.com</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="timeline">
-                <h3>Timeline</h3>
-                <ul>
-                    <li>1995 - окончил школу</li>
-                    <li>1999 - окончил Харьковский Машиностроительный колледж</li>
-                    <li>2005 - окончил НТУ "ХПИ"</li>
-                    <li>2005 - 2015 работал преимущественно в торговле и банковской сфере</li>
-                    <li>2015 - 2021 работал инженером-технологом на авиаремонтном заводе</li>
-                    <li>2021 - и вот я снова студент</li>
-                </ul>
-            </div>
-            <div class="realtime">
-                <h3>В настоящее время</h3>
-                <ul>
-                    <li>С января 2021 года изучаю HTML, CSS, JS по видеоурокам и учебникам</li>
-                    <li>Английский язык - изучаю на уровне A2/B1 в школе Green Forest</li>
-                </ul>
-            </div>
-            <div class="projects">
-                <h3>Мои работы</h3>
-                <ul>
-                    <li>Вёрстка лендинга на FLEX/GRID: <p><a class="bold" href="https://yazkede.github.io/FLEX-GRID/"
-                                target="_blank">https://yazkede.github.io/FLEX-GRID/</a>.........<span>[ HTML, SCSS, JS,
-                                Flex,
-                                Grid,
-                                Responsive ]</span>
+    <main>
+
+        <div class="resume">
+            <div class="container">
+                <div class="resume__block">
+
+                    <h1 class="contact-info__header">Oleksandr Rybin</h1>
+                    <h3 class="contact-info__sub-header">Frontend developer</h3>
+
+                    <div class="contact_info_container fh">
+                        <div class="contact-info__block">
+                            <a href="#" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="calendar"
+                                        class="contact-info__item-icon" role="img" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 448 612">
+                                        <path fill="currentColor"
+                                            d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>42 y.o.</span>
+                            </a>
+                            <a href="#" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 384 512">
+                                        <path
+                                            d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>Kharkiv, Ukraine</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/alexandr-rybin-2b69a9211/" rel="author"
+                                class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 448 512">
+                                        <path
+                                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>Oleksandr Rybin</span>
+                            </a>
+                        </div>
+                        <div class="contact-info__block contact-info__block--center">
+                            <img class="contact-info__avatar" src="/assets/IMG519.jpg" alt="Avatar">
+                        </div>
+
+                        <div class="contact-info__block">
+                            <a class="contact-info__item" href="mailto:alex.rybin999@gmail.com">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                        data-icon="envelope-open-text" class="contact-info__item-icon" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M176 216h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16zm-16 80c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16zm96 121.13c-16.42 0-32.84-5.06-46.86-15.19L0 250.86V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V250.86L302.86 401.94c-14.02 10.12-30.44 15.19-46.86 15.19zm237.61-254.18c-8.85-6.94-17.24-13.47-29.61-22.81V96c0-26.51-21.49-48-48-48h-77.55c-3.04-2.2-5.87-4.26-9.04-6.56C312.6 29.17 279.2-.35 256 0c-23.2-.35-56.59 29.17-73.41 41.44-3.17 2.3-6 4.36-9.04 6.56H96c-26.51 0-48 21.49-48 48v44.14c-12.37 9.33-20.76 15.87-29.61 22.81A47.995 47.995 0 0 0 0 200.72v10.65l96 69.35V96h320v184.72l96-69.35v-10.65c0-14.74-6.78-28.67-18.39-37.77z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>icantfree@gmail.com</span>
+                            </a>
+
+                            <a class="contact-info__item" href="tel:+380983874705">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                        data-icon="phone-square-alt" class="contact-info__item-icon" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path fill="currentColor"
+                                            d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48zm-16.39 307.37l-15 65A15 15 0 0 1 354 416C194 416 64 286.29 64 126a15.7 15.7 0 0 1 11.63-14.61l65-15A18.23 18.23 0 0 1 144 96a16.27 16.27 0 0 1 13.79 9.09l30 70A17.9 17.9 0 0 1 189 181a17 17 0 0 1-5.5 11.61l-37.89 31a231.91 231.91 0 0 0 110.78 110.78l31-37.89A17 17 0 0 1 299 291a17.85 17.85 0 0 1 5.91 1.21l70 30A16.25 16.25 0 0 1 384 336a17.41 17.41 0 0 1-.39 3.37z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>+380983874705</span>
+                            </a>
+                            <a class="contact-info__item"
+                                href="https://www.facebook.com/profile.php?id=100009942045310">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab"
+                                        data-icon="facebook-square" class="contact-info__item-icon" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path fill="currentColor"
+                                            d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>Oleksandr Rybin</span>
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="intro">
+                        <div class="intro__icon-wrapper">
+                            <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p class="intro_text">I am studying the frontend. Most of all, I like the visual component, when
+                            you do something and you can immediately see how the picture changes in real time. The most
+                            important thing for me is to do what I love.
                         </p>
-                        Хотелось сверстать лендинг на Флексах и Гридах.
-                        Данный экземпляр по своей структуре, как мне кажется, оказался подходящим для выполнения этой
-                        цели.
-                    </li>
-                    <li>Программа учёта семейного бюджета и расходов: <p><a class="bold"
-                                href="https://yazkede.github.io/MyBudget/"
-                                target="_blank">https://yazkede.github.io/MyBudget/</a>
-                            .........<span>[ HTML, SCSS, JS, ООП, Responsive ]</span></p>
-                        Программа создавалась для домашнего использования. Помогает в понимании того, куда уходят все
-                        деньги и дисциплинирует в тратах.
-                    </li>
-                </ul>
-            </div>
-            <div class="purpose">
-                <h3>Цели на ближайшее будущее</h3>
-                <p>Планирую наконец-то начать изучение фреймворка React. Интересует реализация компонентного подхода, а
-                    так же хотелось бы научиться выстраивать грамотную файловую структуру. </p>
+                    </div>
+                    <hr>
+                    <div class="skills">
+                        <h3 class="skills__header">Skills</h3>
+                        <p class="skills__text">Html, css, js(basic), git</p>
+                    </div>
+                    <hr>
+                    <div class="main-info fh">
+
+                        <div class="experiences">
+                            <div class="experiences">
+                                <h3 class="experiences__header">Experience</h3>
+                                <div class="experiences__company">
+                                    <div class="experiences__company-header">
+                                        <span class="experiences__company-header-durability">Since January 2021 I have
+                                            been studying HTML, CSS, JS with video tutorials and books</span>
+                                    </div>
+
+                                    <div class="experiences__company-project">
+                                        <span class="experiences__company-project-role"></span>
+                                        <h3 class="experiences__company-project-name">My works</h3>
+                                        <ul class="experiences__company-project-responsibilities">
+                                            <li>Layout of the landing page with FLEX/GRID: <p><a class="bold"
+                                                        href="https://yazkede.github.io/FLEX-GRID/"
+                                                        target="_blank">https://yazkede.github.io/FLEX-GRID/</a>.........<span>[
+                                                        HTML, SCSS, JS,
+                                                        Flex,
+                                                        Grid,
+                                                        Responsive ]</span>
+                                                </p>
+                                            </li>
+                                            <li>Family budget and expense tracking software: <p><a class="bold"
+                                                        href="https://yazkede.github.io/MyBudget/"
+                                                        target="_blank">https://yazkede.github.io/MyBudget/</a>
+                                                    .........<span>[ HTML, SCSS, JS, OOP, Responsive ]</span></p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="additional-info fv">
+                            <div class="additional-info__education">
+                                <h3 class="additional-info__education-header">Education</h3>
+                                <div class="additional-info__education-university">
+                                    <span class="additional-info__education-university-durability">2005</span>
+                                    <h3 class="additional-info__education-university-speciality">Economic cybernetics
+                                    </h3>
+                                    <p class="additional-info__education-university-name">National Technical University
+                                        "Kharkiv Polytechnic Institute"</p>
+                                </div>
+                            </div>
+
+                            <div class="additional-info__languages">
+                                <h3 class="additional-info__languages-header">Languages</h3>
+                                <p class="additional-info__languages-item">
+                                    Russian (native)
+                                </p>
+                                <p class="additional-info__languages-item">
+                                    Ukrainian (good)
+                                </p>
+                                <p class="additional-info__languages-item">
+                                    English (now I study at the A2/B1 )
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-        <script src="app.js"></script>
+    </main>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
